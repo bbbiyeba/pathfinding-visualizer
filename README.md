@@ -9,11 +9,9 @@ An interactive visualization tool for demonstrating pathfinding algorithms in wa
 
   Run `npm run dev` to start the development server.
   
-## 🚀 Live Demo
+## 🚀 Live Demo 
 
-**[View Live Demo]([https://your-app-name.onrender.com](https://pathfinding-visualizer-ua70.onrender.com))** 
-
-**[View Live Demo](https://your-app-name.onrender.com)** _(Update this link after deployment)_
+**[View Live Demo](https://pathfinding-visualizer-ua70.onrender.com)**
 
 ## 📹 Demo Video
 
