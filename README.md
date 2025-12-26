@@ -17,6 +17,14 @@ An interactive visualization tool for demonstrating pathfinding algorithms in wa
 
 **[Watch Tutorial & Gameplay](https://youtu.be/YOUR_VIDEO_ID)** _(Update this link after uploading to YouTube)_
 
+## 🛠️ Tech Stack
+
+- **Frontend**: React 18.3.1
+- **Build Tool**: Vite 6.3.5
+- **Styling**: Tailwind CSS 4.1.12
+- **UI Components**: Radix UI, shadcn/ui
+- **Animations**: Framer Motion
+
 ## ✨ Features
 
 - **Multiple Pathfinding Algorithms**: Compare A*, Dijkstra's, BFS, and DFS algorithms
@@ -26,16 +34,9 @@ An interactive visualization tool for demonstrating pathfinding algorithms in wa
 - **Responsive Design**: Works on desktop and mobile devices
 - **Algorithm Information**: Built-in explanations of how each algorithm works
 
-## 🛠️ Tech Stack
-
-- **Frontend**: React 18.3.1
-- **Build Tool**: Vite 6.3.5
-- **Styling**: Tailwind CSS 4.1.12
-- **UI Components**: Radix UI, shadcn/ui
-- **Animations**: Framer Motion
-
 🏆 Fun Challenges to Try
-- Create a simple straight path - See which algorithm is fastest
-- Build a complex maze - Compare how many nodes each algorithm explores
-- Make an impossible puzzle - Surround the end point with obstacles
-- Test efficiency - Create multiple paths and see if algorithms find the shortest one
+
+- **Create a simple straight path** - See which algorithm is fastest
+- **Build a complex maze** - Compare how many nodes each algorithm explores
+- **Make an impossible puzzle** - Surround the end point with obstacles
+- **Test efficiency** - Create multiple paths and see if algorithms find the shortest one
