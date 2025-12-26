@@ -13,6 +13,8 @@ An interactive visualization tool for demonstrating pathfinding algorithms in wa
 
 **[View Live Demo]([https://your-app-name.onrender.com](https://pathfinding-visualizer-ua70.onrender.com))** 
 
+**[View Live Demo](https://your-app-name.onrender.com)** _(Update this link after deployment)_
+
 ## 📹 Demo Video
 
 **[Watch Tutorial & Gameplay](https://youtu.be/YOUR_VIDEO_ID)** _(Update this link after uploading to YouTube)_
