@@ -9,3 +9,27 @@ An interactive visualization tool for demonstrating pathfinding algorithms in wa
 
   Run `npm run dev` to start the development server.
   
+## 🚀 Live Demo
+
+**[View Live Demo](https://your-app-name.onrender.com)** _(Update this link after deployment)_
+
+## 📹 Demo Video
+
+**[Watch Tutorial & Gameplay](https://youtu.be/YOUR_VIDEO_ID)** _(Update this link after uploading to YouTube)_
+
+## ✨ Features
+
+- **Multiple Pathfinding Algorithms**: Compare A*, Dijkstra's, BFS, and DFS algorithms
+- **Interactive Grid**: Click to place obstacles, starting points, and destinations
+- **Real-time Visualization**: Watch the pathfinding process step-by-step
+- **Performance Metrics**: View statistics like path length, nodes explored, and execution time
+- **Responsive Design**: Works on desktop and mobile devices
+- **Algorithm Information**: Built-in explanations of how each algorithm works
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React 18.3.1
+- **Build Tool**: Vite 6.3.5
+- **Styling**: Tailwind CSS 4.1.12
+- **UI Components**: Radix UI, shadcn/ui
+- **Animations**: Framer Motion
