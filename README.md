@@ -33,3 +33,9 @@ An interactive visualization tool for demonstrating pathfinding algorithms in wa
 - **Styling**: Tailwind CSS 4.1.12
 - **UI Components**: Radix UI, shadcn/ui
 - **Animations**: Framer Motion
+
+🏆 Fun Challenges to Try
+- Create a simple straight path - See which algorithm is fastest
+- Build a complex maze - Compare how many nodes each algorithm explores
+- Make an impossible puzzle - Surround the end point with obstacles
+- Test efficiency - Create multiple paths and see if algorithms find the shortest one
