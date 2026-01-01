@@ -34,7 +34,7 @@ An interactive visualization tool for demonstrating pathfinding algorithms in wa
 - **Responsive Design**: Works on desktop and mobile devices
 - **Algorithm Information**: Built-in explanations of how each algorithm works
 
-🏆 Fun Challenges to Try
+## 🏆 Fun Challenges to Try
 
 - **Create a simple straight path** - See which algorithm is fastest
 - **Build a complex maze** - Compare how many nodes each algorithm explores
