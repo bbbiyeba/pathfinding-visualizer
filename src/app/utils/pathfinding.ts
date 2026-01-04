@@ -92,6 +92,7 @@ export function aStar(
   const gScore = new Map<string, number>();
   const fScore = new Map<string, number>();
   const visited: { row: number; col: number }[] = [];
+  const visitedSet = new Set<string>();
   const steps: PathfindingStep[] = [];
 
   const startKey = `${start.row},${start.col}`;
@@ -108,6 +109,13 @@ export function aStar(
   while (!openSet.isEmpty()) {
     const current = openSet.dequeue()!;
     const currentKey = `${current.row},${current.col}`;
+
+    // Skip if already visited
+    if (visitedSet.has(currentKey)) {
+      continue;
+    }
+
+    visitedSet.add(currentKey);
     visited.push(current);
 
     steps.push({
@@ -130,6 +138,12 @@ export function aStar(
 
     for (const neighbor of neighbors) {
       const neighborKey = `${neighbor.row},${neighbor.col}`;
+      
+      // Skip if already visited
+      if (visitedSet.has(neighborKey)) {
+        continue;
+      }
+
       const tentativeGScore = (gScore.get(currentKey) || Infinity) + 1;
 
       if (tentativeGScore < (gScore.get(neighborKey) || Infinity)) {
@@ -161,6 +175,7 @@ export function dijkstra(
   const distances = new Map<string, number>();
   const cameFrom = new Map<string, { row: number; col: number }>();
   const visited: { row: number; col: number }[] = [];
+  const visitedSet = new Set<string>();
   const steps: PathfindingStep[] = [];
 
   const startKey = `${start.row},${start.col}`;
@@ -176,6 +191,13 @@ export function dijkstra(
   while (!pq.isEmpty()) {
     const current = pq.dequeue()!;
     const currentKey = `${current.row},${current.col}`;
+
+    // Skip if already visited
+    if (visitedSet.has(currentKey)) {
+      continue;
+    }
+
+    visitedSet.add(currentKey);
     visited.push(current);
 
     steps.push({
@@ -198,6 +220,12 @@ export function dijkstra(
 
     for (const neighbor of neighbors) {
       const neighborKey = `${neighbor.row},${neighbor.col}`;
+      
+      // Skip if already visited
+      if (visitedSet.has(neighborKey)) {
+        continue;
+      }
+
       const alt = (distances.get(currentKey) || Infinity) + 1;
 
       if (alt < (distances.get(neighborKey) || Infinity)) {
