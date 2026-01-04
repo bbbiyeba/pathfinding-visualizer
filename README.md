@@ -15,7 +15,7 @@ An interactive visualization tool for demonstrating pathfinding algorithms in wa
 
 ## 📹 Demo Video
 
-**[Watch Tutorial & Gameplay](https://youtu.be/YOUR_VIDEO_ID)** _(Update this link after uploading to YouTube)_
+**[Watch Tutorial & Gameplay](https://youtu.be/YOUR_VIDEO_ID)** _(I will update this link after uploading to YouTube)_
 
 ## 🛠️ Tech Stack
 
@@ -34,7 +34,7 @@ An interactive visualization tool for demonstrating pathfinding algorithms in wa
 - **Responsive Design**: Works on desktop and mobile devices
 - **Algorithm Information**: Built-in explanations of how each algorithm works
 
-🏆 Fun Challenges to Try
+## 🏆 Fun Challenges to Try
 
 - **Create a simple straight path** - See which algorithm is fastest
 - **Build a complex maze** - Compare how many nodes each algorithm explores
